@@ -10,10 +10,13 @@ Página que tem por objetivo melhorar o aprendizado em grupos de estudantes atra
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Amanda de Lima Ventura
+* Ícaro Mainarte de Moura Dias
+* Jeosafá B. Eller
+* Leandro Fagundes Vilela
+* Leonardo Correia de Sá e Silva
+* Ronaldo Fortini Picorelli Junior
+
 
 ## Orientador
 
