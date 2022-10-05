@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# Interactive Academy
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`DESENVOLVIMENTO WEB FRONT-END`
 
-`SEMESTRE`
+`EIXO 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Página que tem por objetivo melhorar o aprendizado em grupos de estudantes atraves da divulgação de temas e ou projetos acadêmicos.
 
 ## Integrantes
 
