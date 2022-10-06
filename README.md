@@ -20,7 +20,7 @@ Página que tem por objetivo melhorar o aprendizado em grupos de estudantes atra
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nathalia Assis Valentim
 
 ## Instruções de utilização
 
