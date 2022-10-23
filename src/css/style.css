@@ -3,11 +3,9 @@
 /* color*/
 :root {
     --primary-color:#dce3e9;
-    --secondary-color:#1c3fa8;
     --dark-color:#343f4b;
     --light-color:#f4f4f4;
-    --success-color:#5cb85c;
-    --error-color: red;
+    
 }
 
 
@@ -34,9 +32,11 @@ h1 {
 p {
     color: var(--dark-color);
 }
+/*
 #btn-entrar ,
 #btn-cadastrar{
    background-color:var(--dark-color)!important;
    color: var(--light-color)!important;
 }
+*
 
