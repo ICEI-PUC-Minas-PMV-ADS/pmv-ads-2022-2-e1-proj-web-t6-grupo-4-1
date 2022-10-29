@@ -23,7 +23,7 @@
                     <a id="pagina-inicial" class="nav-link active text-secondary fw-bolder" aria-current="page" href="#">Página inicial</a>
                    
                   <form  class="d-flex justify-content-end w-50">
-                    <button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <button id="lupa" type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
                     </svg></button>
                     <input id="pesquisa" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
@@ -41,14 +41,14 @@
 <section id="tema-criado">
             <h2 class="text-center">TEMAS</h2>
 <!--CAROUSEL-->           
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
     <div class="carousel-inner">
         
             
           
 <!--TEMAS-->
           <!--pagina1-->
-        <div id="pag-1" class="carousel-item active">  
+        <div id="pag-1" class="carousel-item active" >  
             <div class="row row-cols-3">
                 <div class="col">
                   <div class="card">
@@ -79,8 +79,10 @@
                     </div>
                   </div>
               </div>
+             
             </div>
-        </div>
+            
+        
 <!--pagina 1 fim-->
 
 <!--pagina 2-->
@@ -109,29 +111,50 @@
               <div class="card-body"><a href="">
                 <h5 class="card-title">Special title treatment</h5></a>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-               
               </div>
             </div>
           </div>
       </div>
-    </div>
+  </div>
+  <!--
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  -->
 </div>
 
             
 <!--TEMAS FIM-->    
 
 <!--CAROUSEL FIM-->
-    </div>    
+       
 </div>
 
 
 
 
 </section>
-        <!--Links das páginas-->
-       <div class="d-flex justify-content-center m-3">
+        <!--botões das páginas-->
+       
+       
+        <div class="d-flex justify-content-center m-3">
 
+          <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline "  data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+            <button type="button" class="btn btn-outline "  data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2">2</button>
+            <button type="button" class="btn btn-outline "  data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3">3</button>
+            <button type="button" class="btn btn-outline "  data-bs-target="#carouselExampleControls" data-bs-slide-to="next" aria-label="Slide 4">...</button>
+          </div>
+          
+                   
+        </div>
 
+        <div class="d-flex justify-content-center m-3">
           <button type="button" class="btn btn-dark">Criar novo tema</button>
         </div>
 
