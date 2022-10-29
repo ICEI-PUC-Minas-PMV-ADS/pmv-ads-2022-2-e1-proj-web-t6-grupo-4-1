@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Academy</title>
+   <link rel="stylesheet" href="./css/style_temas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg m-0 p-0">
+            <div class="container-fluid ">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                
+                    <a id="pagina-inicial" class="nav-link active text-secondary fw-bolder" aria-current="page" href="#">Página inicial</a>
+                   
+                  <form  class="d-flex justify-content-end w-50">
+                    <button id="lupa" type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                    </svg></button>
+                    <input id="pesquisa" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-secondary rounded-pill" type="button">Sua conta</button>
+                  </form>
+                  
+              </div>
+            </div>
+          </nav>
+    </header>
+<main id="temas">
+        <h1>Interactive Academy</h1>
+        <p>A plataforma criada para você se organizar e gerenciar os seus projetos</p>
+
+<section id="tema-criado">
+            <h2 class="text-center">TEMAS</h2>
+<!--CAROUSEL-->           
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+    <div class="carousel-inner">
+        
+            
+          
+<!--TEMAS-->
+          <!--pagina1-->
+        <div id="pag-1" class="carousel-item active" >  
+            <div class="row row-cols-3">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <a href=""><h5 class="card-title">Fundamentos da Engenharia de Software</h5></a>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque ducimus placeat ab impedit alias dolores eaque repellendus similique temporibus modi.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <a href="">
+                      <h5 class="card-title">Pensamento Computacional</h5></a>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, veniam odio aperiam delectus nostrum accusamus itaque perspiciatis a aliquid aspernatur?</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <div class="card-body"><a href="">
+                        <h5 class="card-title">Matemática Computacional</h5></a>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore exercitationem autem esse commodi eveniet eaque totam quaerat ipsum dicta porro!</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+              </div>
+             
+            </div>
+            
+        
+<!--pagina 1 fim-->
+
+<!--pagina 2-->
+<div id="pag-2" class="carousel-item">  
+    <div class="row row-cols-3">
+        <div class="col">
+          <div class="card">
+            <div class="card-body"><a href="">
+              <h5 class="card-title">Special title treatment</h5></a>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body"><a href="">
+              <h5 class="card-title">Special title treatment</h5></a>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <div class="card-body"><a href="">
+                <h5 class="card-title">Special title treatment</h5></a>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <!--
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  -->
+</div>
+
+            
+<!--TEMAS FIM-->    
+
+<!--CAROUSEL FIM-->
+       
+</div>
+
+
+
+
+</section>
+        <!--botões das páginas-->
+       
+       
+        <div class="d-flex justify-content-center m-3">
+
+          <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline "  data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+            <button type="button" class="btn btn-outline "  data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2">2</button>
+            <button type="button" class="btn btn-outline "  data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3">3</button>
+            <button type="button" class="btn btn-outline "  data-bs-target="#carouselExampleControls" data-bs-slide-to="next" aria-label="Slide 4">...</button>
+          </div>
+          
+                   
+        </div>
+
+        <div class="d-flex justify-content-center m-3">
+          <button type="button" class="btn btn-dark">Criar novo tema</button>
+        </div>
+
+
+
+
+
+
+
+    </main>
+    
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
