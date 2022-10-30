@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+/* color*/
+
+
+
+* {
+    font-family: 'lato' , sans-serif;    
+
+}
+
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 0px 0px 5px 0px;
+}
+
