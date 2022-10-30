@@ -1,0 +1,29 @@
+body {
+    background-color: #E5E9F2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 600px;
+    min-height: 600px;
+    position: relative;
+    
+}
+.container {
+    background-color: white;
+    border-radius: 0px;
+    position: absolute;
+    width: 600px;
+    height: 627px;
+    text-align: center;
+    left: 35%;
+    top: 25%;
+
+}
+.conteudo {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    max-width: 287px ;
+
+
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: #343F4B;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 600px;
+    min-height: 600px;
+    position: relative;
+    font-family: Lato;
+}
+
+.titulo {
+    color: white;
+
+}
+
+.texto_titulo {
+    color: #8190A5
+}
+
+.retangulo {
+    background-color: white;
+    border-radius: 0px;
+    position: relative;
+    width: 1056.76px;
+    height: 557px;
+    left: 0%;
+    top: 3cm;
+    color: #8190A5;
+}
+
+.titulo_retangulo {
+    text-align: center;
+    color: #47525E;
+}
+
+.pagination {
+    position: relative;
+    top: 4cm;
+
+}
