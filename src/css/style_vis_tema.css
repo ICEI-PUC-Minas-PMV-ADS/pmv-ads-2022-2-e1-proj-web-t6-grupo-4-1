@@ -1,0 +1,65 @@
+h1, h2{
+    color: #3f3f40
+    
+}
+
+h1, h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color:  #3f3f40;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2, p {
+    text-align: center;
+}
+
+
+.tematopo{
+    text-align: center;
+}
+
+.descricao{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+}
+
+    
+.temas1 {   
+    display: flex;
+    justify-content: center;
+
+    
+}
+.imgq {
+    display: flex;
+    justify-content: center;
+}
+
+.quadd1 {
+    border-radius: 80px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+button {
+    color: white;
+    background-color: #3f3f40;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
