@@ -10,6 +10,7 @@
     <meta name="description" content="Crie o seu tema.">
     <title>Criacao de temas</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./style.js" ></script>
 </head>
 
 
@@ -37,25 +38,13 @@
     </section>
     
     <section class="conteudo-secundario">
-        <h3 class="conteudo-secundario-titulo">Inserir links</h3>
-        <form action="cadastro.php" method="post" autocomplete="on">
-<p>
-    <label for="Inserir links"></label>
-        <select name="Inserir links" id="Inserir links">
-        <option value="Inserir links" selected>Inserir links</option>
-        <option value="Opcao 1 - formacao de grupos" selected>Opcao 1 - formacao de grupos</option>
-        <option value="Opcao 2 - reunioes" selected>Opcao 2 - reunioes</option>
-        <option value="Opcao 3 - gerenciador de projetos" selected>Opcao 3 - gerenciador de projetos</option>
-
-        </select>
-</section>
-</p>
-    <section class="conteudo-final">
-        <button class="conteudo-final-editar">Editar tema</button>
-        <button class="conteudo-final-excluir">Excluir tema</button>
+                <label>Inserir links:</label>
+                <input id="dado"><br>
+                <button type="button" onclick="salvar()" >Salvar</button>
+                <button type="button" onclick="carregar()" >Carregar</button>
     </section>
 </main>
-
+<style href="./style.js" type="text/css"> </style>
 
 </body>
 
