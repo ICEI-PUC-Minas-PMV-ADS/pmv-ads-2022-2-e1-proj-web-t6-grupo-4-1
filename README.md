@@ -15,7 +15,7 @@ Página que tem por objetivo melhorar o aprendizado em grupos de estudantes atra
 * Jeosafá B. Eller
 * Leandro Fagundes Vilela
 * Leonardo Correia de Sá e Silva
-* Ronaldo Fortini Picorelli Junior
+
 
 
 ## Orientador

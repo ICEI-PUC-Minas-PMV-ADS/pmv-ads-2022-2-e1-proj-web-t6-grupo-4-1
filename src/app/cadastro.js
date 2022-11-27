@@ -30,7 +30,7 @@ function register() {
     firebase.auth().createUserWithEmailAndPassword(
         email, password
     ).then(() => {
-        window.location.href = "../temas.html";
+        window.location.href = "./../temas.html";
     }).catch(error => {
         
         alert(getErrorMessage(error));
