@@ -50,7 +50,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Content Cell  | Content Cell  | Content Cell  |
  
 | Eu como …  [PERSONA]| | … quero/desejo …    [O QUE]| 	| … para ....       [POR QUE]| 
-| ---------------------------------------------------------------------------------------| 
+| --------------------- | ----------------------------- | -------------------------- | 
 | Gabriel Mendes | 	| Visualizar temas alinhado de meu interesse | 	| discutir com pessoas de interesse comum. | 
 | Gabriel Mendes | 	| criar grupos de estudo | 	| para tirar dúvidas sobre o conteúdo. | 
 | Leonardo Silva | 	| possibilidade de comunicar via texto, áudio e vídeo chamada | 	| facilitar a comunicação do grupo. | 
