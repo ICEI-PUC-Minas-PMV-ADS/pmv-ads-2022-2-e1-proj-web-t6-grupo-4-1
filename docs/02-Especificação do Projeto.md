@@ -1,24 +1,33 @@
 2.	ESPECIFICAÇÃO DO PROJETO
 
 A definição de nossa solução e seus pontos mais relevantes a serem abordados em nosso projeto foi abordada a partir de uma pesquisa realizada com pessoas que acessaram o link de nosso formulário de pesquisa. As informações coletadas durante a pesquisa serão apresentadas em forma de personas e suas histórias.
+
 2.1.	PERSONAS
 As personas levantadas durante o processo de entendimento do problema são apresentadas abaixo:
+
 Catherine Silva
+
 Idade: 23
-Ocupação: Estudante de medicina, aluna na faculdade de ciências médicas. 	
+
+Ocupação: Estudante de medicina, aluna na faculdade de ciências médicas. 
+
 Aplicativos:
 * Google Meet
 * Teams
  
 Motivações
 * Trabalho em grupo
-* Reuniões	
+* Reuniões
+	
 Frustrações
 * Dificuldade para dividir as tarefas	 
  
-  	Leonardo Silva
-	Idade: 24
-Ocupação: Designer gráfico, ex-aluno da Universidade Fumec e costuma fazer vários freelances todo mês.  	
+ Leonardo Silva
+ 
+Idade: 24
+
+Ocupação: Designer gráfico, ex-aluno da Universidade Fumec e costuma fazer vários freelances todo mês.  
+
 Aplicativos:
 * Discord
 Motivações
