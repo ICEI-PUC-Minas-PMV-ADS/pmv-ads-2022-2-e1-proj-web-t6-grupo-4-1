@@ -26,7 +26,7 @@ function addTemasToScreen(temas) {
 
         for (let i = 0; i < temas.length; i++) {
 
-            if (user.email === temas[i].user.name) {
+            if (user.email === temas[i].user.name && user.uid === temas[i].user.uid) {
                 deleteButton;
             } else {
                 document.querySelector('.btnRemover').remove();
@@ -53,7 +53,7 @@ function addTemasToScreen(temas) {
                          <button class="btn btn-dark" href="#multiCollapseExample${[i]}" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="multiCollapseExample">
                          Inscreva-se
                          </button>
-                         ${deleteButton.outerHTML}
+                         
                     </p>
 
                     <div class="collapse" id="multiCollapseExample${[i]}">
