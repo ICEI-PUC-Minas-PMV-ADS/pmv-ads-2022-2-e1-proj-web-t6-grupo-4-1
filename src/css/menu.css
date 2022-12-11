@@ -1,0 +1,88 @@
+.navbar-toggler {
+    border: 0!important;
+  }  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+     outline: none !important;;
+     box-shadow:none!important;
+     border: 0!important;
+     text-decoration: none!important;
+  }
+  
+  .toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color:gray;
+    display: block;
+    transition: all 1s ease-in-out;
+    border-radius: 1px;
+  }
+  .middle-bar{
+    margin: 5px auto;
+
+  }
+  
+  
+  .navbar-toggler.collapsed .top-bar{
+    transform: rotate(0);
+  } 
+  .navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    transform: alpha(opacity=100);
+  } 
+  .navbar-toggler.collapsed .bottom-bar{
+    transform: rotate(0);
+  } 
+  
+  .navbar-toggler.collapsed .toggler-icon {
+    background-color:gray;
+  } 
+
+ .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  transition: all 1s ease-in-out;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active:hover{
+    color:gray!important;
+    transition: all 0.5s ease-in-out!important;
+    
+  }
+
+  
+
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+    margin-top: 0px;
+  }
+
+ 
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 10%;
+    margin-top: 0px;
+   }
+
+   #pesquisa{
+    border: none;
+    width: 50%;
+    height: 30px;
+    margin: 5px;
+    box-shadow: none;
+    color: gray;    
+    
+}
+  
+#pesquisa,
+#lupa{
+  display:none;
+}  

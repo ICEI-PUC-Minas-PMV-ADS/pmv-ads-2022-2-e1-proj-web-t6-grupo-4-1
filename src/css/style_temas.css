@@ -38,7 +38,7 @@
 main {
     background-color: var(--dark-color);
     padding: 50px 100px ;
-    height: 92vh;
+    
 }
 
 h1 {
@@ -55,8 +55,8 @@ p {
 
 #tema-criado{
     background-color: #fff;
-    height: 50vh;
     padding: 0 20px;
+    margin: 20px 0;
 
 }
 
@@ -66,6 +66,15 @@ p {
     text-align: center;
     font-weight: bolder;
     height: 100px;
+    
+}
+.card{
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+#descTema{
+    height: 200px;
     
 }
 .card-text, #lupa{
@@ -99,5 +108,46 @@ a , h2{
     color: #fff; 
     outline: none;
     box-shadow: none;
+}
+
+.navbar-collapse{
+    flex-grow:0 !important;
+}
+.carousel-item.active,
+.carousel-item-next, 
+.carousel-item-prev{
+    display: flex!important;
+
+}
+
+
+@media (max-width: 768px){
+
+
+.carousel-item-next, 
+.carousel-item-prev, 
+.carousel-item.active
+{
+    display: block !important;
+}
+
+
+}
+
+@media (max-width: 576px){
+    .card-title, p{
+        font-size: x-small;
+        height: 65px;
+        
+    }
+    #tema-criado{
+        width: 100%;
+        padding: 0;
+        margin: 2px;
+    }
+    main{
+        padding: 50px 50px;
+    }
+
 }
 

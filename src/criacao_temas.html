@@ -1,62 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Crie o seu tema.">
     <title>Criacao de temas</title>
-    <link rel="stylesheet" type="text/css" href="./css/criacao_temas.css">
+    <link rel="stylesheet" href="./css/criacao_temas.css">
+   <link rel="stylesheet" href="./css/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        
+   
 </head>
 
 
 
-
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item">Pagina inicial</a>
-            <a class="cabecalho-menu-item">Pesquisar</a>
+    <header>
+        <nav class="navbar navbar-expand-lg m-0 p-0">
+            <div class="container-fluid ">
+                <a id="pagina-inicial" class="nav-link active text-secondary fw-bolder" aria-current="page"
+                href="home.html">Interactive Academy</a>
+
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+                  
+                    <form class="nav-item d-flex justify-content-end">
+                        <button id="lupa" type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                                </path>
+                            </svg></button>
+                        <input id="pesquisa" class="form-control me-2" type="search" placeholder="Pesquisar"
+                            aria-label="Search">
+                        <button class="btn btn-secondary rounded-pill" type="button" id="userEmail"></button>
+                        <button class="btn btn-secondary rounded-pill" type="button" id="btnSair"
+                            onClick="location.href='./temas.html';">Voltar</button>
+                    </form>
+
+                </div>
+            </div>
         </nav>
-
-</header> 
-
+    </header>
 
 
-<main class="conteudo">
-    <section class="conteudo-principal">
-        <div class="conteudo-principal-escrito">
-            <textarea name="msg" id="imsg" cols="10" rows="2" placeholder="Titulo do tema"></textarea>
 
-            <textarea name="msg" id="imsg" cols="70" rows="20" placeholder="Digite seu texto"></textarea>
+
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <input type="text" name="msg" id="titulo"  placeholder="Titulo do tema"></input>
+
+                <textarea type="text" name="msg" id="descricao" cols="70" rows="6" placeholder="Descreva o objetivo desse tema"></textarea>
+            </div>
+
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Inserir links</h3>
+
+
+            <label for="Inserir links"></label>
+            <select name="Inserir links" id="Inserir links">
+                <option value="Inserir links" selected>Inserir links</option>
+                <option value="Opcao 1 - formacao de grupos" >Opcao 1 - Formacao de grupos</option>
+                <option value="Opcao 2 - reunioes" >Opcao 2 - Reuniões</option>
+                <option value="Opcao 3 - gerenciador de projetos" >Opcao 3 - Gerenciador de projetos</option>
+
+            </select>
+
+        </section>
+        <div class="d-flex justify-content-center mt-5">
+            <textarea id="linkUser" name="msg" id="" cols="40" rows="4" placeholder="Cole o link aqui"></textarea>
         </div>
 
-    </section>
+        <section class="conteudo-final">
+            <button id="btnSalvar" class="btn btn-secondary rounded-pill">Salvar tema</button>
+        </section>
+        <strong id="alerta"></strong>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore-compat.js"></script>
+    <script type="module" src="./app/salvartemas.js"></script>
+    <script>
+        const firebaseConfig = {
+          apiKey: "AIzaSyB1RPMpNXFwPwcxHao51DQCnrkMKsghb7o",
+          authDomain: "interactive-academy-5a86f.firebaseapp.com",
+          projectId: "interactive-academy-5a86f",
+          storageBucket: "interactive-academy-5a86f.appspot.com",
+          messagingSenderId: "614125255257",
+          appId: "1:614125255257:web:e2283b9433e2d7fa100f48"
+        };
+      firebase.initializeApp(firebaseConfig);
     
-    <section class="conteudo-secundario">
-        <h3 class="conteudo-secundario-titulo">Inserir links</h3>
-        <form action="cadastro.php" method="post" autocomplete="on">
-<p>
-    <label for="Inserir links"></label>
-        <select name="Inserir links" id="Inserir links">
-        <option value="Inserir links" selected>Inserir links</option>
-        <option value="Opcao 1 - formacao de grupos" selected>Opcao 1 - formacao de grupos</option>
-        <option value="Opcao 2 - reunioes" selected>Opcao 2 - reunioes</option>
-        <option value="Opcao 3 - gerenciador de projetos" selected>Opcao 3 - gerenciador de projetos</option>
-
-        </select>
-</section>
-</p>
-    <section class="conteudo-final">
-        <button class="conteudo-final-editar">Editar tema</button>
-        <button class="conteudo-final-excluir">Excluir tema</button>
-    </section>
-</main>
-
-
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 

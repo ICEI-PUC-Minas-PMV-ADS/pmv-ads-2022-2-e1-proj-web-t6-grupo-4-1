@@ -2,6 +2,7 @@
 
 firebase.auth().onAuthStateChanged(user => {
     if (user) {
+      localStorage.setItem('user', user.email);
       document.getElementById("userEmail").innerText = user.email;
         
     } else {
@@ -18,3 +19,4 @@ function logout() {
         alert('Erro ao fazer logout');
     })
 }
+
