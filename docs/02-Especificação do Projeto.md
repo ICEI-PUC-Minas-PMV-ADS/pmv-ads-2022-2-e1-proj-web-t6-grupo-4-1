@@ -86,21 +86,24 @@ Segue abaixo a tabela com as funcionalidades e os serviços que o site deve forn
 | RF-08 | Disponibilizar funcionalidade que permita pesquisar os temas. | Média | 
 
 2.4.	REQUISITOS NÃO FUNCIONAIS
+
 A tabela abaixo apresenta os requisitos não funcionais que o site deverá atender.
 
-ID	Descrição	Prioridade
-RNF-01	O site deverá ter uma interface compatível com qualquer navegador.	Alta
-RNF-02	O site deverá ter uma funcionalidade para armazenar o tema criado.	Média
-RNF-03	O site deverá ter uma interface responsiva adaptável a qualquer smartphone.	Baixa
-RNF-04	O site deve ser publicado em uma plataforma WEB.	Alta
-RNF-05	O site deve ter uma boa navegabilidade.	Alta
+| ID | 	Descrição | Prioridade | 
+| RNF-01 | O site deverá ter uma interface compatível com qualquer navegador. | Alta | 
+| RNF-02 | O site deverá ter uma funcionalidade para armazenar o tema criado. | Média | 
+| RNF-03 | O site deverá ter uma interface responsiva adaptável a qualquer smartphone. | Baixa | 
+| RNF-04 | O site deve ser publicado em uma plataforma WEB. | Alta | 
+| RNF-05 | O site deve ter uma boa navegabilidade. | Alta | 
 
 2.5.	RESTRIÇÕES
+
 O projeto está restrito pelos itens apresentados a seguir.
-ID	Descrição
-01	Front End desenvolvido em HTML, CSS e JavaScript
-02	O projeto deverá ser entregue até o final do semestre, não podendo passar da data de 11/12/2022
-03	Os dados não poderão ser armazenados em um banco de dados, pois esse conteúdo não faz parte do Eixo1 de Micro fundamentos.
-04	Como repositório só poderá ser usado Github classroom.
-05	O site deverá ser publicado em uma plataforma gratuita.
+
+| ID | Descrição | 
+| 01 | Front End desenvolvido em HTML, CSS e JavaScript | 
+| 02 | O projeto deverá ser entregue até o final do semestre, não podendo passar da data de 11/12/2022 | 
+| 03 | Os dados não poderão ser armazenados em um banco de dados, pois esse conteúdo não faz parte do Eixo1 de Micro fundamentos. | 
+| 04 | Como repositório só poderá ser usado Github classroom. | 
+| 05 | O site deverá ser publicado em uma plataforma gratuita. | 
 
