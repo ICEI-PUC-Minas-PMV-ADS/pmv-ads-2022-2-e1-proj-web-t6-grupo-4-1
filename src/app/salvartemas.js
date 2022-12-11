@@ -5,7 +5,7 @@ firebase.auth().onAuthStateChanged(user => {
       document.getElementById("userEmail").innerText = user.email;
         
     } else {
-        window.location.href = "home.html";
+        window.location.href = "index.html";
     }
 })
 function saveTemas() {

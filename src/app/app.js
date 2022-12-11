@@ -5,13 +5,13 @@ firebase.auth().onAuthStateChanged(user => {
     document.getElementById("userEmail").innerText = user.email;
       
   } else {
-      window.location.href = "home.html";
+      window.location.href = "index.html";
   }
 })
 
 function logout() {
   firebase.auth().signOut().then(() => {
-     document.getElementById("btnSair").window.location.href = "home.html";
+     document.getElementById("btnSair").window.location.href = "index.html";
   }).catch(() => {
       alert('Erro ao fazer logout');
   })
