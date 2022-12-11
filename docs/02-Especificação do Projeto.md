@@ -1,8 +1,8 @@
-2.	ESPECIFICAÇÃO DO PROJETO
+# 2.	ESPECIFICAÇÃO DO PROJETO
 
 A definição de nossa solução e seus pontos mais relevantes a serem abordados em nosso projeto foi abordada a partir de uma pesquisa realizada com pessoas que acessaram o link de nosso formulário de pesquisa. As informações coletadas durante a pesquisa serão apresentadas em forma de personas e suas histórias.
 
-2.1.	PERSONAS
+## 2.1.	PERSONAS
 As personas levantadas durante o processo de entendimento do problema são apresentadas abaixo:
 
 Catherine Silva
@@ -53,7 +53,7 @@ Frustrações
 * Não consegue organizar suas tarefas
 * Dificuldade para reunir com grupo de trabalho	
  
-2.2.	HISTÓRIAS DOS USUÁRIOS
+## 2.2.	HISTÓRIAS DOS USUÁRIOS
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 | Eu como …  [PERSONA]  | … quero/desejo …    [O QUE] |  … quero/desejo …    [O QUE] |
@@ -70,7 +70,7 @@ REQUISITOS DO PROJETO
 
 Requisitos são aspectos que o projeto proposto deve fazer ou restrições no desenvolvimento do projeto. Estão classificados em requisitos funcionais e não funcionais.
 
-2.3.	REQUISITOS FUNCIONAIS
+## 2.3.	REQUISITOS FUNCIONAIS
 
 Segue abaixo a tabela com as funcionalidades e os serviços que o site deve fornecer.
 
@@ -85,7 +85,7 @@ Segue abaixo a tabela com as funcionalidades e os serviços que o site deve forn
 | RF-07 | Disponibilizar funcionalidade que permita criar novos temas. | Média | 
 | RF-08 | Disponibilizar funcionalidade que permita pesquisar os temas. | Média | 
 
-2.4.	REQUISITOS NÃO FUNCIONAIS
+## 2.4.	REQUISITOS NÃO FUNCIONAIS
 
 A tabela abaixo apresenta os requisitos não funcionais que o site deverá atender.
 
@@ -97,7 +97,7 @@ A tabela abaixo apresenta os requisitos não funcionais que o site deverá atend
 | RNF-04 | O site deve ser publicado em uma plataforma WEB. | Alta | 
 | RNF-05 | O site deve ter uma boa navegabilidade. | Alta | 
 
-2.5.	RESTRIÇÕES
+## 2.5.	RESTRIÇÕES
 
 O projeto está restrito pelos itens apresentados a seguir.
 
