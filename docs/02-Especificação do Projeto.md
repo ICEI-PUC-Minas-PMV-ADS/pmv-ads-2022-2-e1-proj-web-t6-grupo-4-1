@@ -90,7 +90,7 @@ Segue abaixo a tabela com as funcionalidades e os serviços que o site deve forn
 A tabela abaixo apresenta os requisitos não funcionais que o site deverá atender.
 
 | ID | Descrição | Prioridade | 
-| -- | --------- |
+| -- | --------- | ---------- |
 | RNF-01 | O site deverá ter uma interface compatível com qualquer navegador. | Alta | 
 | RNF-02 | O site deverá ter uma funcionalidade para armazenar o tema criado. | Média | 
 | RNF-03 | O site deverá ter uma interface responsiva adaptável a qualquer smartphone. | Baixa | 
