@@ -45,5 +45,14 @@ p {
    background-color:var(--dark-color)!important;
    color: var(--light-color)!important;
 }
-*
+*/
 
+@media screen and (max-width: 599px) {
+
+    .container.flex.w-50.d-sm-none.d-md-block{
+        display: none;
+    }
+
+
+
+}
