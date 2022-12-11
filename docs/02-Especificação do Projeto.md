@@ -46,8 +46,13 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 | Eu como …  [PERSONA]  | … quero/desejo …    [O QUE] |  … quero/desejo …    [O QUE] |
 | --------------------- | --------------------------- | ---------------------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| Gabriel Mendes | Content Cell  | Content Cell  |
+| Gabriel Mendes | Content Cell  | Content Cell  |
+| Leonardo Silva | Content Cell  | Content Cell  |
+| Leonardo Silva | Content Cell  | Content Cell  |
+| Gabriel Mendes | Content Cell  | Content Cell  |
+| Gabriel Mendes | Content Cell  | Content Cell  |
+| Catherine Silva | Content Cell  | Content Cell  |
  
 | Eu como …  [PERSONA]| | … quero/desejo …    [O QUE]| 	| … para ....       [POR QUE]| 
 | --------------------- | ----------------------------- | -------------------------- | 
