@@ -5,9 +5,10 @@ A definição de nossa solução e seus pontos mais relevantes a serem abordados
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
  	Catherine Silva
 	Idade: 23
-Ocupação: Estudante de medicina, aluna na faculdade de ciências médicas. 	Aplicativos:
-●     Google Meet
-●     Teams
+Ocupação: Estudante de medicina, aluna na faculdade de ciências médicas. 	
+Aplicativos:
+* Google Meet
+* Teams
  
 Motivações
 ●     Trabalho em grupo
