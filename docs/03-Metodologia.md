@@ -22,10 +22,10 @@ A equipe está organizada da seguinte maneira:
 * Scrum Master: Jeosafá B. Eller
 * Product Owner: Leandro Fagundes Vilela
 * Equipe de Desenvolvimento
- * Ícaro Mainarte de Moura Dias
- * Leonardo Correia de Sá e Silva
+  * Ícaro Mainarte de Moura Dias
+  * Leonardo Correia de Sá e Silva
 * Equipe de Design
- * Amanda de Lima Ventura
+  * Amanda de Lima Ventura
  
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
