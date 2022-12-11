@@ -2,7 +2,7 @@
 
 A definição de nossa solução e seus pontos mais relevantes a serem abordados em nosso projeto foi abordada a partir de uma pesquisa realizada com pessoas que acessaram o link de nosso formulário de pesquisa. As informações coletadas durante a pesquisa serão apresentadas em forma de personas e suas histórias.
 2.1.	PERSONAS
-As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
+As personas levantadas durante o processo de entendimento do problema são apresentadas abaixo:
  	Catherine Silva
 	Idade: 23
 Ocupação: Estudante de medicina, aluna na faculdade de ciências médicas. 	
@@ -11,48 +11,40 @@ Aplicativos:
 * Teams
  
 Motivações
-●     Trabalho em grupo
-●     Reuniões	Frustrações
-●     Dificuldade para dividir as tarefas	Hobbies, História
-●     ….
-●     ….
+* Trabalho em grupo
+* Reuniões	
+Frustrações
+* Dificuldade para dividir as tarefas	 
  
   	Leonardo Silva
 	Idade: 24
-Ocupação: Designer gráfico, ex-aluno da Universidade Fumec e costuma fazer vários freelances todo mês.  	Aplicativos:
-●     Discord
- 
+Ocupação: Designer gráfico, ex-aluno da Universidade Fumec e costuma fazer vários freelances todo mês.  	
+Aplicativos:
+* Discord
 Motivações
-●     Trabalho
- 	Frustrações
-●     Dificuldade para dividir as tarefas
-●     Não consegue organizar suas tarefas	Hobbies, História
-●     ….
-●     ….
- 
- 
+* Trabalho
+Frustrações
+* Dificuldade para dividir as tarefas
+* Não consegue organizar suas tarefas	
+
   	Gabriel Mendes
 	Idade: 25
-Ocupação: Estudante de administração, aluno na PUC-MG e sócio de uma empresa de segurança.	Aplicativos:
-●     Teams
-●     Discord
+Ocupação: Estudante de administração, aluno na PUC-MG e sócio de uma empresa de segurança.	
+Aplicativos:
+* Teams
+* Discord
 Motivações
-●     Estudo
-●     Trabalho
- 	Frustrações
-●     Dificuldade para escolher tema dos trabalhos
-●     Não consegue organizar suas tarefas
-●     Dificuldade para reunir com grupo de trabalho	Hobbies, História
-●     ….
-●     ….
- 
+* Estudo
+* Trabalho
+Frustrações
+* Dificuldade para escolher tema dos trabalhos
+* Não consegue organizar suas tarefas
+* Dificuldade para reunir com grupo de trabalho	
  
 2.2.	HISTÓRIAS DOS USUÁRIOS
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
  
-Eu como …  [PERSONA]	… quero/desejo …
-[O QUE]	… para ....
-[POR QUE]
+Eu como …  [PERSONA]	… quero/desejo …    [O QUE]	… para ....       [POR QUE]
 Gabriel Mendes	Visualizar temas alinhado de meu interesse	discutir com pessoas de interesse comum.
 Gabriel Mendes	criar grupos de estudo	para tirar dúvidas sobre o conteúdo.
 Leonardo Silva	possibilidade de comunicar via texto, áudio e vídeo chamada	facilitar a comunicação do grupo.
