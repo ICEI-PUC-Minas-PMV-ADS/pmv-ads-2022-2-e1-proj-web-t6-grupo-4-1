@@ -44,7 +44,7 @@ Frustrações
 2.2.	HISTÓRIAS DOS USUÁRIOS
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-| First Header  | Second Header |
+| Eu como …  [PERSONA]  | … quero/desejo …    [O QUE] |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
