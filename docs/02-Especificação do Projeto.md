@@ -37,8 +37,11 @@ Frustrações
 * Não consegue organizar suas tarefas	
 
   	Gabriel Mendes
+	
 	Idade: 25
+	
 Ocupação: Estudante de administração, aluno na PUC-MG e sócio de uma empresa de segurança.	
+
 Aplicativos:
 * Teams
 * Discord
@@ -62,33 +65,25 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Gabriel Mendes | quadro de avisos  | organização do trabalho  |
 | Gabriel Mendes | quadro de anotações  | organização das ideias do grupo  |
 | Catherine Silva | fazer reuniões  | agendar com um grupo reuniões para distribuir tarefas.  |
- 
-| Eu como …  [PERSONA]| | … quero/desejo …    [O QUE]| 	| … para ....       [POR QUE]| 
-| --------------------- | ----------------------------- | -------------------------- | 
-| Gabriel Mendes | 	| Visualizar temas alinhado de meu interesse | 	| discutir com pessoas de interesse comum. | 
-| Gabriel Mendes | 	| criar grupos de estudo | 	| para tirar dúvidas sobre o conteúdo. | 
-| Leonardo Silva | 	| possibilidade de comunicar via texto, áudio e vídeo chamada | 	| facilitar a comunicação do grupo. | 
-| Leonardo Silva | 	| Um local para informar onde estão as tarefas do que deve ser feito | 	| para conseguir distribuir as tarefas. | 
-| Gabriel Mendes | 	| quadro de avisos | 	| organização do trabalho | 
-| Gabriel Mendes | 	| quadro de anotações | 	| organização das ideias do grupo | 
-| Catherine Silva | 	| fazer reuniões | 	| agendar com um grupo reuniões para distribuir tarefas. | 
-
 
 REQUISITOS DO PROJETO
 
 Requisitos são aspectos que o projeto proposto deve fazer ou restrições no desenvolvimento do projeto. Estão classificados em requisitos funcionais e não funcionais.
 
 2.3.	REQUISITOS FUNCIONAIS
+
 Segue abaixo a tabela com as funcionalidades e os serviços que o site deve fornecer.
-ID	Descrição	Prioridade
-RF-01	Disponibilizar área com informações sobre o propósito do site	Média
-RF-02	Disponibilizar página em que o usuário poderá ler e escolher o tema	Alta
-RF-03	Disponibilizar funcionalidade de inserção de links para realizar formação de grupos, reuniões e gerenciador de projetos	Alta
-RF-04	O site deve ter uma funcionalidade de cadastro de usuário.	Alta
-RF-05	Disponibilizar funcionalidade para que o criador possa editar ou excluir o tema.	Alta
-RF-06	Disponibilizar funcionalidade de recuperação de senha.	Alta
-RF-07	Disponibilizar funcionalidade que permita criar novos temas.	Média
-RF-08	Disponibilizar funcionalidade que permita pesquisar os temas.	Média
+
+| ID | Descrição | Prioridade |
+| -- | --------- | ---------- | 
+| RF-01 | Disponibilizar área com informações sobre o propósito do site	| Média | 
+| RF-02 | Disponibilizar página em que o usuário poderá ler e escolher o tema | Alta | 
+| RF-03 | Disponibilizar funcionalidade de inserção de links para realizar formação de grupos, reuniões e gerenciador de projetos | Alta | 
+| RF-04 | O site deve ter uma funcionalidade de cadastro de usuário. | Alta | 
+| RF-05 | Disponibilizar funcionalidade para que o criador possa editar ou excluir o tema. | Alta | 
+| RF-06 | Disponibilizar funcionalidade de recuperação de senha. | Alta | 
+| RF-07 | Disponibilizar funcionalidade que permita criar novos temas. | Média | 
+| RF-08 | Disponibilizar funcionalidade que permita pesquisar os temas. | Média | 
 
 2.4.	REQUISITOS NÃO FUNCIONAIS
 A tabela abaixo apresenta os requisitos não funcionais que o site deverá atender.
