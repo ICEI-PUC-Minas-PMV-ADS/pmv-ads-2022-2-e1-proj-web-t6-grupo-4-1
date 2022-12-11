@@ -45,14 +45,14 @@ Frustrações
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
  
 | Eu como …  [PERSONA]| | … quero/desejo …    [O QUE]| 	| … para ....       [POR QUE]| 
----------------------------------------------------------------------------------------
-| Gabriel Mendes| 	| Visualizar temas alinhado de meu interesse| 	| discutir com pessoas de interesse comum.| 
-| Gabriel Mendes| 	| criar grupos de estudo| 	| para tirar dúvidas sobre o conteúdo.| 
-| Leonardo Silva| 	| possibilidade de comunicar via texto, áudio e vídeo chamada| 	| facilitar a comunicação do grupo.| 
-| Leonardo Silva| 	| Um local para informar onde estão as tarefas do que deve ser feito| 	| para conseguir distribuir as tarefas.| 
-| Gabriel Mendes| 	| quadro de avisos| 	| organização do trabalho| 
-| Gabriel Mendes| 	| quadro de anotações| 	| organização das ideias do grupo| 
-| Catherine Silva| 	| fazer reuniões| 	| agendar com um grupo reuniões para distribuir tarefas.| 
+| ---------------------------------------------------------------------------------------| 
+| Gabriel Mendes | 	| Visualizar temas alinhado de meu interesse | 	| discutir com pessoas de interesse comum. | 
+| Gabriel Mendes | 	| criar grupos de estudo | 	| para tirar dúvidas sobre o conteúdo. | 
+| Leonardo Silva | 	| possibilidade de comunicar via texto, áudio e vídeo chamada | 	| facilitar a comunicação do grupo. | 
+| Leonardo Silva | 	| Um local para informar onde estão as tarefas do que deve ser feito | 	| para conseguir distribuir as tarefas. | 
+| Gabriel Mendes | 	| quadro de avisos | 	| organização do trabalho | 
+| Gabriel Mendes | 	| quadro de anotações | 	| organização das ideias do grupo | 
+| Catherine Silva | 	| fazer reuniões | 	| agendar com um grupo reuniões para distribuir tarefas. | 
 
 
 REQUISITOS DO PROJETO
