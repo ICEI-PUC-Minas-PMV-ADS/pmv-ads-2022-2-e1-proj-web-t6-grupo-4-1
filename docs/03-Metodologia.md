@@ -1,9 +1,9 @@
 
-# 3.	METODOLOGIA
+# METODOLOGIA
 
 A metodologia resume-se em definir técnicas, métodos e ferramentas que devem ser adotados pela equipe para a manutenção dos códigos e dos outros artefatos. Essa fase é de grande valia para que o trabalho seja bem feito e assim auxiliando a equipe a obter sucesso. 
 
-## 3.1.	RELAÇÃO DE AMBIENTES DE TRABALHO
+## RELAÇÃO DE AMBIENTES DE TRABALHO
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
@@ -14,7 +14,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Projeto de Interface e Wireframes |	MarvelApp	| https://marvelapp.com/prototype/65gj1c8/screen/88856700?sign_up_origin=player |
 |Gerenciamento do Projeto |	Trello | https://trello.com/b/qnrEoVcb/turma-4 |
 
-## 3.2.	GERENCIAMENTO DE PROJETO
+## GERENCIAMENTO DE PROJETO
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
