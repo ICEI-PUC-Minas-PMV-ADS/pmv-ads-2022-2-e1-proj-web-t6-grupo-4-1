@@ -1,76 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style_cadastro.css" />
-    <title>Cadastro</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style_cadastro.css" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
+    
+    
+    <script src="./app/cadastro.js"></script>
+    
   </head>
-  <body>
-    <main>
-      <div class="container-fluid">
-        <div class="row justify-content-center mt-5">
-          <section>
-            <form class="form-container">
-              <div class="form-group justify-content-center">
-                <h4 class="text-center">Cadastre-se</h4>
-                <p></p>
-                <p class="m-3 text-center">
-                  Cadastre-se e aproveite o melhor da nossa plataforma!
-                </p>                
-                <div class="form-group form-inline">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="E-mail"
-                />
 
-              
+
+<body>
+  <main>
+    <div class="container-fluid">
+      <div class="row justify-content-center mt-5">
+        <section>
+          <form class="form-container">
+            <div class="form-group justify-content-center">
+              <h4 class="text-center">Cadastre-se</h4>
+
+              <p class="m-3 text-center">
+                Cadastre-se e aproveite o melhor da nossa plataforma!
+              </p>
+
+              <div class="error" id="email-required-error">Email é obrigatório</div>
+              <div class="error" id="email-invalid-error">Email é inválido</div>
+
               <div class="form-group">
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleInputPassword1"
-                  placeholder="Senha"
-                />
-              </div>
+               
+                <input type="email" class="form-control mb-3" id="email" aria-describedby="emailHelp"
+                  placeholder="seu@email.com" required onchange="onChangeEmail()" />
 
-              <button
-                id="btn-cadastrar"
-                type="button"
-                class="btn btn-dark"
-              >
-                Cadastrar
-              </div>
-              </button>
-            </form>
-          </section>
-        </div>
+                <div class="form-group">
+                 
+                  <input type="password" class="form-control" id="password" placeholder="Senha"
+                    onchange="onChangePassword()" />
+                  
+                  <div class="error" id="password-required-error">Senha é obrigatória</div>
+                  <div class="error" id="password-min-length-error">Senha deve ter pelo menos 6 caracteres</div>
+
+                  <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme sua senha"
+                    onchange="onChangeConfirmPassword()" />
+                  
+                  <div class="error" id="password-doesnt-match-error">Senha e Confirmar senha devem ser iguais</div>
+                  <div class="error" id="password-min-length-error">Senha deve ter pelo menos 6 caracteres</div>
+
+                </div>
+
+                <button id="register-button" type="button" class="btn btn-dark" disabled="true" onclick="register()">
+                  Cadastrar
+                </button>
+
+                <button id="login-button" type="button" class="btn btn-dark" onClick="location.href = './login.html';">
+                  Login
+                </button>
+
+
+
+          </form>
+        </section>
       </div>
-    </main>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </main>
+
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyB1RPMpNXFwPwcxHao51DQCnrkMKsghb7o",
+      authDomain: "interactive-academy-5a86f.firebaseapp.com",
+      projectId: "interactive-academy-5a86f",
+      storageBucket: "interactive-academy-5a86f.appspot.com",
+      messagingSenderId: "614125255257",
+      appId: "1:614125255257:web:e2283b9433e2d7fa100f48"
+    };
+  firebase.initializeApp(firebaseConfig);
+    
+  </script>
+
+  
+  
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
