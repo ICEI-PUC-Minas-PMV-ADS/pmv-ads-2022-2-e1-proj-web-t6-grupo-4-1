@@ -1,4 +1,4 @@
-# 4.	PROJETO DE INTERFACE
+# PROJETO DE INTERFACE
 Optamos por estabelecer um projeto de interface mais objetivo, e, consequentemente, mais ágil e usual.
 
 ![image](https://user-images.githubusercontent.com/109597436/206908380-d2fb873c-8e4c-4a02-89e2-89cc8bc29fd5.png)
