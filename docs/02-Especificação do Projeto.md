@@ -1,80 +1,97 @@
-# Especificações do Projeto
-
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+2.	ESPECIFICAÇÃO DO PROJETO
 
 A definição de nossa solução e seus pontos mais relevantes a serem abordados em nosso projeto foi abordada a partir de uma pesquisa realizada com pessoas que acessaram o link de nosso formulário de pesquisa. As informações coletadas durante a pesquisa serão apresentadas em forma de personas e suas histórias.
-
-
-## Personas
-
+2.1.	PERSONAS
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
-
-<img src=img\componentes.png>
-
-## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-### Requisitos não Funcionais
-
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+ 	Catherine Silva
+	Idade: 23
+Ocupação: Estudante de medicina, aluna na faculdade de ciências médicas. 	Aplicativos:
+●     Google Meet
+●     Teams
+ 
+Motivações
+●     Trabalho em grupo
+●     Reuniões	Frustrações
+●     Dificuldade para dividir as tarefas	Hobbies, História
+●     ….
+●     ….
+ 
+  	Leonardo Silva
+	Idade: 24
+Ocupação: Designer gráfico, ex-aluno da Universidade Fumec e costuma fazer vários freelances todo mês.  	Aplicativos:
+●     Discord
+ 
+Motivações
+●     Trabalho
+ 	Frustrações
+●     Dificuldade para dividir as tarefas
+●     Não consegue organizar suas tarefas	Hobbies, História
+●     ….
+●     ….
+ 
+ 
+  	Gabriel Mendes
+	Idade: 25
+Ocupação: Estudante de administração, aluno na PUC-MG e sócio de uma empresa de segurança.	Aplicativos:
+●     Teams
+●     Discord
+Motivações
+●     Estudo
+●     Trabalho
+ 	Frustrações
+●     Dificuldade para escolher tema dos trabalhos
+●     Não consegue organizar suas tarefas
+●     Dificuldade para reunir com grupo de trabalho	Hobbies, História
+●     ….
+●     ….
+ 
+ 
+2.2.	HISTÓRIAS DOS USUÁRIOS
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
+ 
+Eu como …  [PERSONA]	… quero/desejo …
+[O QUE]	… para ....
+[POR QUE]
+Gabriel Mendes	Visualizar temas alinhado de meu interesse	discutir com pessoas de interesse comum.
+Gabriel Mendes	criar grupos de estudo	para tirar dúvidas sobre o conteúdo.
+Leonardo Silva	possibilidade de comunicar via texto, áudio e vídeo chamada	facilitar a comunicação do grupo.
+Leonardo Silva	Um local para informar onde estão as tarefas do que deve ser feito	para conseguir distribuir as tarefas.
+Gabriel Mendes	quadro de avisos	organização do trabalho
+Gabriel Mendes	quadro de anotações	organização das ideias do grupo
+Catherine Silva	fazer reuniões 	agendar com um grupo reuniões para distribuir tarefas.
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+REQUISITOS DO PROJETO
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+Requisitos são aspectos que o projeto proposto deve fazer ou restrições no desenvolvimento do projeto. Estão classificados em requisitos funcionais e não funcionais.
+2.3.	REQUISITOS FUNCIONAIS
+Segue abaixo a tabela com as funcionalidades e os serviços que o site deve fornecer.
+ID	Descrição	Prioridade
+RF-01	Disponibilizar área com informações sobre o propósito do site	Média
+RF-02	Disponibilizar página em que o usuário poderá ler e escolher o tema	Alta
+RF-03	Disponibilizar funcionalidade de inserção de links para realizar formação de grupos, reuniões e gerenciador de projetos	Alta
+RF-04	O site deve ter uma funcionalidade de cadastro de usuário.	Alta
+RF-05	Disponibilizar funcionalidade para que o criador possa editar ou excluir o tema.	Alta
+RF-06	Disponibilizar funcionalidade de recuperação de senha.	Alta
+RF-07	Disponibilizar funcionalidade que permita criar novos temas.	Média
+RF-08	Disponibilizar funcionalidade que permita pesquisar os temas.	Média
+
+2.4.	REQUISITOS NÃO FUNCIONAIS
+A tabela abaixo apresenta os requisitos não funcionais que o site deverá atender.
+
+ID	Descrição	Prioridade
+RNF-01	O site deverá ter uma interface compatível com qualquer navegador.	Alta
+RNF-02	O site deverá ter uma funcionalidade para armazenar o tema criado.	Média
+RNF-03	O site deverá ter uma interface responsiva adaptável a qualquer smartphone.	Baixa
+RNF-04	O site deve ser publicado em uma plataforma WEB.	Alta
+RNF-05	O site deve ter uma boa navegabilidade.	Alta
+
+2.5.	RESTRIÇÕES
+O projeto está restrito pelos itens apresentados a seguir.
+ID	Descrição
+01	Front End desenvolvido em HTML, CSS e JavaScript
+02	O projeto deverá ser entregue até o final do semestre, não podendo passar da data de 11/12/2022
+03	Os dados não poderão ser armazenados em um banco de dados, pois esse conteúdo não faz parte do Eixo1 de Micro fundamentos.
+04	Como repositório só poderá ser usado Github classroom.
+05	O site deverá ser publicado em uma plataforma gratuita.
+
