@@ -7,3 +7,5 @@ Faça uma apresentação resumida de todo o projeto, desde a contextualização 
 Faça o upload do arquivo de vídeo e dos slides usados na apresentação no formato PDF (caso tenha feito uso de slides).
 
 <a href="../presentation/interactive_academy.mp4">
+
+<a href="../presentation/interactive_academy_slide.pptx">
