@@ -1,0 +1,23 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: de Lima Ventura
+    given-names: Amanda
+  - family-names: Mainarte de Moura Dias
+    given-names: Ícaro
+  - family-names: B. Eller
+    given-names: Jeosafá
+  - family-names: Fagundes Vilela
+    given-names: Leandro
+  - family-names: Correia de Sá e Silva
+    given-names: Leonardo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Assis Valentim
+    given-names: Nathalia
+keywords:
+  - group
+  - students
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t6-grupo-4-1
+version: 1.0.0
+date-released: 2022-12-11
